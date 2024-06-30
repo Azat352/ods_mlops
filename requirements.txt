@@ -1,3 +1,5 @@
 pandas
 scikit-learn
 numpy
+pre-commit
+pre-commit-hooks
