@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+ods_mlops.egg-info/PKG-INFO
+ods_mlops.egg-info/SOURCES.txt
+ods_mlops.egg-info/dependency_links.txt
+ods_mlops.egg-info/entry_points.txt
+ods_mlops.egg-info/top_level.txt

@@ -1,3 +1,20 @@
+[build-system]
+requires = ["setuptools >= 70.1.1"]
+build-backend = "setuptools.build_meta" 
+[project]
+name = "ods_mlops"
+version = "0.0.1"
+requires-python = ">=3.9"
+readme = "REAMDE.md"
+[project.scripts]
+test = "test:print_test"
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+exclude = ["test.py"]
+namespaces = false
 [tool.black]
 line-length = 78
 skip-string-normalization = true
