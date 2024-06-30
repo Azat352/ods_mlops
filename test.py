@@ -1,3 +1,8 @@
+import os
+
+from numpy import sin
+
+
 def print_test() -> None:
     print("test printing")
 
